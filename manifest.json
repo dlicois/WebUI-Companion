@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Bittorent WebUI Companion",
+    "version": "1.0",
+    "description": ".torrent download interception POC",
+
+    //   TODO :  Make an icon
+    //   "icons": {
+    //     "48": "icons/border-48.png"
+    //   },
+
+    "background": {
+        //   "matches": ["http://rarbgmirror.xyz/*"],
+        "scripts": [
+            "app.js"
+        ]
+    },
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "<all_urls>"
+    ]
+}
