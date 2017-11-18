@@ -3,11 +3,17 @@
     "name": "Bittorent WebUI Companion",
     "version": "1.0",
     "description": ".torrent download interception POC",
+    "homepage_url": "https://github.com/dlicois/WebUI-Companion",
 
     //   TODO :  Make an icon
     //   "icons": {
     //     "48": "icons/border-48.png"
     //   },
+
+    "options_ui": {
+        "page": "options/options.html",
+        "browser_style": true
+    },
 
     "background": {
         //   "matches": ["http://rarbgmirror.xyz/*"],
